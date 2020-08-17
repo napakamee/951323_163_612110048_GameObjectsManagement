@@ -17,7 +17,7 @@ public class PlayerCollisionCheck : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision){
         if (collision.gameObject.tag == "Item"){
-            Destroy(collision.gameObject);
+            Destroy(collision.gameObject,0);
         }
         else if (collision.gameObject.tag == "Obstacle"){
             Destroy(collision.gameObject ,0.5f);

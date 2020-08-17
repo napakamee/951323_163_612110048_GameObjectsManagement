@@ -34,6 +34,12 @@ public class PlayerCollisionCheckWithITC : MonoBehaviour
                 case ItemType.CYLINDER_OBSTACLE:
                     _textPickUpInfo.text = "CYLINDER_OBSTACLE has been picked up";
                 break;
+                case ItemType.BANANA:
+                _textPickUpInfo.text = "BANANA has been picked up";
+                break;
+                case ItemType.CAN:
+                _textPickUpInfo.text = "CAN has been picked up";
+                break;
             }
         }
     }

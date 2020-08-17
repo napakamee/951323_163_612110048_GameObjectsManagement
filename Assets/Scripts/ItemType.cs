@@ -3,4 +3,6 @@
     CUBE_OBSTACLE ,
     CAPSULE_OBSTACLE ,
     CYLINDER_OBSTACLE ,
+    BANANA ,
+    CAN
 }
